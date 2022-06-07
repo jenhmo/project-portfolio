@@ -5,6 +5,13 @@
     --default-font-family: 'Poppins', serif;
 
 }
+
+.navbar{
+    padding: 20px;
+}
+.nav-link{
+    font-family: var(--heading-font-family);
+}
 body{
     font-family: var(--default-font-family);
 }
