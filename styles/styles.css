@@ -18,7 +18,9 @@ h1 {
 
 h2{
     font-size: 56px;
+    font-family: var(--default-font-family);
 }
+
 p{
     font-weight: normal;
     font-size: 16px;
@@ -53,17 +55,28 @@ color: #272142;
     padding: 160px 20px;
 }
 
-.content-container h1{
+.content h1{
 font-size: 64px;
 line-height: 80px;
 }
 
-.content-container h2{
+.content h2{
     font-size: 18px;
     font-family: var(--default-font-family);
     }
 
-.content-container img {
+.content h3{
+    font-size: 24px;
+    font-family: var(--default-font-family);
+    line-height: 1.5;
+}
+
+.content p{
+    font-size: 12px;
+}
+
+
+.content img {
     border-radius: 10px;
 }
 
