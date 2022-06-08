@@ -28,6 +28,10 @@ li{
     color: var(--branding-color);
   }
 
+  #contact-information p{
+      font-size: large;
+  }
+
 footer {
     margin: 60px 0;
 }
