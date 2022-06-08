@@ -18,6 +18,10 @@
     color: var(--branding-color);
 }
 
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: var(--branding-color);
+  }
+
 footer {
     margin: 60px 0;
 }
@@ -69,7 +73,7 @@ h2{
     font-family: var(--default-font-family);
 }
 
-h4{
+h3{
     font-size: 48px;
 }
 
@@ -168,8 +172,8 @@ footer .email-link{
         font-size: 44px;
     }
 
-    h4{
-        font-size: 18px;
+    h3{
+        font-size: 24px;
     }
 
     .hero {
