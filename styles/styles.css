@@ -37,14 +37,14 @@ footer {
     margin: 0;
 }
 
-footer .email-link{
+.email-link{
 text-decoration: none;
 color: black;
 font-size: 24px;
 text-align: center;
 }
 
-footer .email-link:hover{
+.email-link:hover{
 color: var(--branding-color);
 }
 
@@ -159,7 +159,7 @@ line-height: 80px;
     border: 1px solid var(--branding-color);
 }
 
-footer .email-link{
+.email-link{
     text-decoration: none;
 }
 
