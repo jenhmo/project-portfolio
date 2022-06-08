@@ -8,14 +8,20 @@
 
 .navbar{
     padding: 20px;
+    font-family: var(--default-font-family);
 }
-
-.nav-link{
+ 
+.nav-link a{
     font-family: var(--heading-font-family);
 }
 
 .nav-link:hover{
     color: var(--branding-color);
+}
+
+li{
+    text-align: end;
+    padding-right: 10px;
 }
 
 .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
